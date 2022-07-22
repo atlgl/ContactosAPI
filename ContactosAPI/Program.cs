@@ -21,6 +21,8 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+
+    ///quitar estas lineas para no usar Swagger interfaz grafica
     app.UseSwagger();
     app.UseSwaggerUI();
 }
